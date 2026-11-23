@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { CONFIG, CONTENT, type Lang } from './content'
+import { TERMS } from './terms'
 import './App.css'
 
 const STORAGE_KEY = 'gpscamera.lang'
@@ -161,9 +162,9 @@ function FloatNav({
 
 const ICONS = ['M12 3 4 6v6c0 4.5 3.2 7.7 8 9 4.8-1.3 8-4.5 8-9V6l-8-3Z', 'M4 7h4l2-2h4l2 2h4v12H4V7Zm8 9a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z', 'M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Zm0-8.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z', 'M4 5h16v11H8l-4 3V5Z', 'M5 12l4.5 4.5L19 7']
 
-export default function App() {
+export default function App({ doc = 'privacy' }: { doc?: 'privacy' | 'terms' }) {
   const [lang, setLang] = useState<Lang>(initialLang)
-  const t = CONTENT[lang]
+  const t = (doc === 'terms' ? TERMS : CONTENT)[lang]
   const { progress, active } = useScrollState(t.sections.map((s) => s.id))
   const rootRef = useReveal(lang)
 
@@ -200,6 +201,14 @@ export default function App() {
             <img src={`${import.meta.env.BASE_URL}favicon.png`} alt="" width="32" height="32" />
             <span>{CONFIG.appName}</span>
           </a>
+          <nav className="docs" aria-label="Documents">
+            <a href={`./index.html?lang=${lang}`} aria-current={doc === 'privacy' ? 'page' : undefined}>
+              {t.navPrivacy}
+            </a>
+            <a href={`./terms.html?lang=${lang}`} aria-current={doc === 'terms' ? 'page' : undefined}>
+              {t.navTerms}
+            </a>
+          </nav>
           <div className="lang" role="group" aria-label={t.langLabel}>
             <span className={`thumb ${lang}`} aria-hidden="true" />
             {(['en', 'vi'] as const).map((code) => (
@@ -313,6 +322,10 @@ export default function App() {
 
       <footer className="foot">
         <div className="wrap">
+          <nav className="foot-links" aria-label="Documents">
+            <a href={`./index.html?lang=${lang}`}>{t.navPrivacy}</a>
+            <a href={`./terms.html?lang=${lang}`}>{t.navTerms}</a>
+          </nav>
           © {new Date().getFullYear()} {CONFIG.appName}. {t.footer}
         </div>
       </footer>

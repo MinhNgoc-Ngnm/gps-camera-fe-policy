@@ -6,6 +6,11 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   // Đường dẫn tương đối để chạy được ở GitHub Pages (/<tên-repo>/) lẫn tên miền riêng.
   base: './',
+  build: {
+    rollupOptions: {
+      input: { index: 'index.html', terms: 'terms.html' },
+    },
+  },
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })

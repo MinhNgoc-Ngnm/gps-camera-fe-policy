@@ -28,6 +28,8 @@ export interface Content {
   contactLabel: string
   langLabel: string
   topLabel: string
+  navPrivacy: string
+  navTerms: string
   skip: string
   footer: string
 }
@@ -48,6 +50,8 @@ const en: Content = {
   contactLabel: 'Contact',
   langLabel: 'Language',
   topLabel: 'Back to top',
+  navPrivacy: 'Privacy',
+  navTerms: 'Terms',
   skip: 'Skip to content',
   footer: 'All rights reserved.',
   sections: [
@@ -217,6 +221,8 @@ const vi: Content = {
   contactLabel: 'Liên hệ',
   langLabel: 'Ngôn ngữ',
   topLabel: 'Lên đầu trang',
+  navPrivacy: 'Quyền riêng tư',
+  navTerms: 'Điều khoản',
   skip: 'Chuyển đến nội dung',
   footer: 'Bảo lưu mọi quyền.',
   sections: [
