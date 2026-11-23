@@ -197,7 +197,7 @@ export default function App() {
       <header className="topbar">
         <div className="wrap topbar-in">
           <a className="brand" href="#top" aria-label={CONFIG.appName}>
-            <img src="/favicon.png" alt="" width="32" height="32" />
+            <img src={`${import.meta.env.BASE_URL}favicon.png`} alt="" width="32" height="32" />
             <span>{CONFIG.appName}</span>
           </a>
           <div className="lang" role="group" aria-label={t.langLabel}>
@@ -224,7 +224,7 @@ export default function App() {
             <span className="ring r1" />
             <span className="ring r2" />
             <span className="spin" />
-            <img className="app-icon" src="/app-icon.png" alt="" width="132" height="132" />
+            <img className="app-icon" src={`${import.meta.env.BASE_URL}app-icon.png`} alt="" width="132" height="132" />
           </div>
           <p className="tagline rise" style={{ '--d': '120ms' } as React.CSSProperties}>
             {t.tagline}

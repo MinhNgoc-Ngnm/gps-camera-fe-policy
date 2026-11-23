@@ -4,6 +4,8 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Đường dẫn tương đối để chạy được ở GitHub Pages (/<tên-repo>/) lẫn tên miền riêng.
+  base: './',
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })
