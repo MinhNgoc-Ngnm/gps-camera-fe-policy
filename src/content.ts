@@ -5,7 +5,7 @@ export const CONFIG = {
   appName: 'GPS Camera',
   contactEmail: 'cindypittman597304@gmail.com',
   contactPhone: '+84385514788',
-  lastUpdated: '2026-11-23',
+  lastUpdated: '2026-11-25',
 }
 
 export interface Section {
@@ -43,8 +43,7 @@ const en: Content = {
     'No account or sign-in. We do not collect your name, email or phone number.',
     'Your photos and videos stay on your device, in your Photos library.',
     'Your location is used only to print the address, coordinates, map and weather on your pictures.',
-    'The app shows or will show ads. Ad partners may use your device advertising identifier only if you allow it.',
-    'We do not sell your personal data.',
+    'We do not sell your personal data, and the app has no ads and no in-app purchases.',
   ],
   tocTitle: 'Contents',
   contactLabel: 'Contact',
@@ -80,10 +79,6 @@ const en: Content = {
           'The app saves your stamped photos and videos to Photos, in a "GPS Camera" album. If you choose to add a stamp to an existing picture, the app reads only the pictures you select.',
         ],
         [
-          'Purchases',
-          'If you buy a subscription or unlock, the purchase is handled by Apple through the App Store. We receive only whether you have an active entitlement, not your name, card or payment details.',
-        ],
-        [
           'Settings and preferences',
           'Your choices (such as the selected template, units and manual location) are kept on your device.',
         ],
@@ -93,7 +88,7 @@ const en: Content = {
       id: 'not-collected',
       title: 'What we do not collect',
       paragraphs: [
-        'We do not run servers that receive your photos, videos or location history. We do not ask for your name, email or phone number. We do not combine your photos or location with advertising data, and we do not track you across the apps or websites of other companies unless you allow it when the app asks (see Advertising).',
+        'We do not run servers that receive your photos, videos or location history. We do not ask for your name, email or phone number. The app has no advertising and no third-party analytics or tracking tools, and it does not track you across other apps or websites.',
       ],
     },
     {
@@ -102,17 +97,6 @@ const en: Content = {
       items: [
         ['Create the stamp', 'Location, time and weather are drawn onto your photo or video.'],
         ['Provide features', 'Saving to Photos, templates, manual location and your preferences.'],
-        ['Unlock paid features', 'Checking your purchase with Apple.'],
-      ],
-    },
-    {
-      id: 'ads',
-      title: 'Advertising',
-      paragraphs: [
-        'The free version of the app shows, or will show, ads from third-party advertising networks. These networks run their own code inside the app and may collect device information such as your advertising identifier (IDFA), IP address, device model, app version and how you interact with ads, to show and measure ads and prevent fraud.',
-        'Tracking permission: on iOS, the app asks for your permission before an ad network can use the advertising identifier to track you across apps and websites. If you decline, ads can still appear but are not personalized by that identifier. You can change this any time in iOS Settings > Privacy & Security > Tracking.',
-        'Consent: where required by law (for example in the European Economic Area and the UK), the app shows a consent form before ads load, and you can change your choice later in the app.',
-        'Photos, videos, stamps and your precise location are not shared with ad networks. Ad partners process data under their own privacy policies; the final list will be named here when ads are released.',
       ],
     },
     {
@@ -129,10 +113,6 @@ const en: Content = {
         [
           'Open-Meteo (weather)',
           'To show the weather on your stamp, the app sends your approximate coordinates (rounded to about 11 meters) to Open-Meteo.com and receives the current temperature, conditions, humidity and wind. No other identifier is sent. Weather data by Open-Meteo.com.',
-        ],
-        [
-          'Apple App Store (purchases)',
-          'Payments, subscriptions and receipts are processed by Apple.',
         ],
         [
           'Network check',
@@ -214,8 +194,7 @@ const vi: Content = {
     'Không cần tài khoản hay đăng nhập. Chúng tôi không thu thập tên, email hay số điện thoại.',
     'Ảnh và video của bạn nằm trên máy, trong thư viện Ảnh.',
     'Vị trí chỉ dùng để in địa chỉ, tọa độ, bản đồ và thời tiết lên ảnh.',
-    'Ứng dụng có hoặc sắp có quảng cáo. Đối tác quảng cáo chỉ dùng mã định danh quảng cáo của thiết bị khi bạn cho phép.',
-    'Chúng tôi không bán dữ liệu cá nhân của bạn.',
+    'Chúng tôi không bán dữ liệu cá nhân của bạn. Ứng dụng không có quảng cáo và không có giao dịch mua trong ứng dụng.',
   ],
   tocTitle: 'Mục lục',
   contactLabel: 'Liên hệ',
@@ -251,10 +230,6 @@ const vi: Content = {
           'Ứng dụng lưu ảnh và video đã đóng tem vào thư viện Ảnh, trong album "GPS Camera". Nếu bạn chọn thêm tem vào ảnh có sẵn, ứng dụng chỉ đọc những ảnh bạn chọn.',
         ],
         [
-          'Giao dịch mua',
-          'Nếu bạn mua gói đăng ký hoặc mở khóa, giao dịch do Apple xử lý qua App Store. Chúng tôi chỉ biết bạn có quyền lợi còn hiệu lực hay không, không nhận tên, thẻ hay thông tin thanh toán.',
-        ],
-        [
           'Cài đặt và tùy chọn',
           'Lựa chọn của bạn (như mẫu tem, đơn vị và vị trí thủ công) được lưu trên máy.',
         ],
@@ -264,7 +239,7 @@ const vi: Content = {
       id: 'not-collected',
       title: 'Những gì chúng tôi không thu thập',
       paragraphs: [
-        'Chúng tôi không vận hành máy chủ nhận ảnh, video hay lịch sử vị trí của bạn. Chúng tôi không hỏi tên, email hay số điện thoại. Chúng tôi không kết hợp ảnh hay vị trí của bạn với dữ liệu quảng cáo, và không theo dõi bạn qua ứng dụng hay trang web của công ty khác trừ khi bạn cho phép khi ứng dụng hỏi (xem mục Quảng cáo).',
+        'Chúng tôi không vận hành máy chủ nhận ảnh, video hay lịch sử vị trí của bạn. Chúng tôi không hỏi tên, email hay số điện thoại. Ứng dụng không có quảng cáo, không dùng công cụ phân tích hay theo dõi của bên thứ ba, và không theo dõi bạn qua ứng dụng hay trang web khác.',
       ],
     },
     {
@@ -273,17 +248,6 @@ const vi: Content = {
       items: [
         ['Tạo tem', 'Vị trí, thời gian và thời tiết được vẽ lên ảnh hoặc video của bạn.'],
         ['Cung cấp tính năng', 'Lưu vào Ảnh, mẫu tem, vị trí thủ công và tùy chọn của bạn.'],
-        ['Mở tính năng trả phí', 'Kiểm tra giao dịch mua của bạn với Apple.'],
-      ],
-    },
-    {
-      id: 'ads',
-      title: 'Quảng cáo',
-      paragraphs: [
-        'Bản miễn phí của ứng dụng có hoặc sắp có quảng cáo từ các mạng quảng cáo bên thứ ba. Các mạng này chạy mã riêng trong ứng dụng và có thể thu thập thông tin thiết bị như mã định danh quảng cáo (IDFA), địa chỉ IP, kiểu máy, phiên bản ứng dụng và cách bạn tương tác với quảng cáo, để hiển thị, đo lường quảng cáo và chống gian lận.',
-        'Quyền theo dõi: trên iOS, ứng dụng sẽ xin phép bạn trước khi mạng quảng cáo dùng mã định danh quảng cáo để theo dõi bạn giữa các ứng dụng và trang web. Nếu bạn từ chối, quảng cáo vẫn có thể hiển thị nhưng không được cá nhân hóa bằng mã đó. Bạn có thể đổi lựa chọn bất cứ lúc nào tại Cài đặt iOS > Quyền riêng tư & Bảo mật > Theo dõi.',
-        'Đồng ý: ở nơi luật yêu cầu (ví dụ Khu vực Kinh tế Châu Âu và Anh), ứng dụng hiện biểu mẫu đồng ý trước khi tải quảng cáo, và bạn có thể đổi lựa chọn sau trong ứng dụng.',
-        'Ảnh, video, tem và vị trí chính xác của bạn không được chia sẻ với mạng quảng cáo. Đối tác quảng cáo xử lý dữ liệu theo chính sách riêng của họ; danh sách cuối cùng sẽ được nêu tại đây khi quảng cáo ra mắt.',
       ],
     },
     {
@@ -300,10 +264,6 @@ const vi: Content = {
         [
           'Open-Meteo (thời tiết)',
           'Để hiện thời tiết trên tem, ứng dụng gửi tọa độ gần đúng của bạn (làm tròn khoảng 11 mét) tới Open-Meteo.com và nhận về nhiệt độ, tình trạng, độ ẩm và gió hiện tại. Không gửi mã định danh nào khác. Weather data by Open-Meteo.com.',
-        ],
-        [
-          'Apple App Store (giao dịch mua)',
-          'Thanh toán, gói đăng ký và biên nhận do Apple xử lý.',
         ],
         [
           'Kiểm tra mạng',

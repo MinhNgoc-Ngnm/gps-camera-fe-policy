@@ -7,7 +7,7 @@ const en: Partial<Content> = {
   summary: [
     'GPS Camera is for personal use. You own the photos and videos you take.',
     'Stamps (location, time, weather) are informative and can be inaccurate. Do not rely on them as legal proof.',
-    'Pro is optional and is billed through your Apple Account. Subscriptions renew until you cancel.',
+    'The app is free: no ads and no in-app purchases.',
     'Use the app lawfully and respect other people\'s privacy.',
   ],
   sections: [
@@ -59,7 +59,7 @@ const en: Partial<Content> = {
         ],
         [
           'Harm the app',
-          'Interfere with, attack or bypass the security or purchase checks of the app.',
+          'Interfere with, attack or bypass the security of the app.',
         ],
       ],
     },
@@ -71,47 +71,10 @@ const en: Partial<Content> = {
       ],
     },
     {
-      id: 'pro',
-      title: 'Pro, purchases and subscriptions',
-      paragraphs: [
-        'Some features, such as extra templates, need GPS Camera Pro. Pro is offered as a weekly subscription, a yearly subscription (which may include a free trial) and a one-time lifetime purchase. Prices are shown in the app before you buy and can differ by country.',
-      ],
-      items: [
-        [
-          'Payment',
-          'Payment is charged to your Apple Account at confirmation of purchase. We do not receive your payment details.',
-        ],
-        [
-          'Automatic renewal',
-          'Subscriptions renew automatically at the same price and period unless you cancel at least 24 hours before the end of the current period. Your account is charged for renewal within 24 hours before the period ends.',
-        ],
-        [
-          'Free trial',
-          'If a free trial is offered, any unused part of it is lost when you buy a subscription. If you do not cancel at least 24 hours before the trial ends, you are charged for the first period.',
-        ],
-        [
-          'Managing and cancelling',
-          'Manage or cancel in iOS Settings > your name > Subscriptions. Deleting the app does not cancel a subscription.',
-        ],
-        [
-          'Refunds',
-          'Purchases are handled by Apple, so refund requests go to Apple at reportaproblem.apple.com. We cannot refund purchases ourselves, except where the law requires.',
-        ],
-        [
-          'Restore',
-          'Use "Restore" in the app to recover Pro on a new device with the same Apple Account. Lifetime means for the life of the app and the Pro feature set, not your lifetime or the life of any device.',
-        ],
-        [
-          'Changes',
-          'We may change prices or what Pro includes. Price changes for subscriptions follow Apple\'s rules and you will be notified when required.',
-        ],
-      ],
-    },
-    {
       id: 'ads',
-      title: 'Ads and third-party services',
+      title: 'Third-party services',
       paragraphs: [
-        'The free version of the app shows, or will show, ads. The app also relies on services from Apple and Open-Meteo. We do not control these services and are not responsible for their content, availability or practices. See our Privacy Policy for details.',
+        'The app is free and has no ads or in-app purchases. It relies on services from Apple and Open-Meteo. We do not control these services and are not responsible for their content, availability or practices. See our Privacy Policy for details.',
       ],
     },
     {
@@ -132,7 +95,7 @@ const en: Partial<Content> = {
       id: 'liability',
       title: 'Limit of liability',
       paragraphs: [
-        'To the extent the law allows, we are not liable for indirect, incidental or consequential loss, or for loss of data, profit or opportunity, arising from your use of the app or from reliance on a stamp. Our total liability for any claim is limited to the amount you paid for the app in the 12 months before the claim. Nothing in these Terms limits liability that cannot be limited by law, and your legal rights as a consumer remain.',
+        'To the extent the law allows, we are not liable for indirect, incidental or consequential loss, or for loss of data, profit or opportunity, arising from your use of the app or from reliance on a stamp. Because the app is free, our total liability for any claim is limited to the extent the law allows. Nothing in these Terms limits liability that cannot be limited by law, and your legal rights as a consumer remain.',
       ],
     },
     {
@@ -178,7 +141,7 @@ const vi: Partial<Content> = {
   summary: [
     'GPS Camera dùng cho mục đích cá nhân. Ảnh và video bạn chụp thuộc về bạn.',
     'Tem (vị trí, thời gian, thời tiết) chỉ mang tính tham khảo và có thể sai. Đừng dùng làm bằng chứng pháp lý.',
-    'Pro là tùy chọn và thanh toán qua tài khoản Apple. Gói đăng ký tự gia hạn cho đến khi bạn hủy.',
+    'Ứng dụng miễn phí: không quảng cáo và không có giao dịch mua trong ứng dụng.',
     'Hãy dùng ứng dụng hợp pháp và tôn trọng quyền riêng tư của người khác.',
   ],
   sections: [
@@ -230,7 +193,7 @@ const vi: Partial<Content> = {
         ],
         [
           'Gây hại cho ứng dụng',
-          'Can thiệp, tấn công hoặc vượt qua cơ chế bảo mật và kiểm tra giao dịch mua của ứng dụng.',
+          'Can thiệp, tấn công hoặc vượt qua cơ chế bảo mật của ứng dụng.',
         ],
       ],
     },
@@ -242,47 +205,10 @@ const vi: Partial<Content> = {
       ],
     },
     {
-      id: 'pro',
-      title: 'Pro, giao dịch mua và gói đăng ký',
-      paragraphs: [
-        'Một số tính năng, như mẫu tem bổ sung, cần GPS Camera Pro. Pro có gói đăng ký theo tuần, gói đăng ký theo năm (có thể kèm dùng thử miễn phí) và gói mua một lần trọn đời. Giá hiển thị trong ứng dụng trước khi bạn mua và có thể khác nhau theo quốc gia.',
-      ],
-      items: [
-        [
-          'Thanh toán',
-          'Khoản tiền được trừ vào tài khoản Apple của bạn khi xác nhận mua. Chúng tôi không nhận thông tin thanh toán của bạn.',
-        ],
-        [
-          'Tự động gia hạn',
-          'Gói đăng ký tự động gia hạn với cùng mức giá và thời hạn, trừ khi bạn hủy ít nhất 24 giờ trước khi kỳ hiện tại kết thúc. Tài khoản của bạn bị tính phí gia hạn trong vòng 24 giờ trước khi kỳ kết thúc.',
-        ],
-        [
-          'Dùng thử miễn phí',
-          'Nếu có dùng thử miễn phí, phần chưa dùng sẽ mất khi bạn mua gói đăng ký. Nếu không hủy ít nhất 24 giờ trước khi hết dùng thử, bạn sẽ bị tính phí kỳ đầu tiên.',
-        ],
-        [
-          'Quản lý và hủy',
-          'Quản lý hoặc hủy tại Cài đặt iOS > tên của bạn > Đăng ký. Xóa ứng dụng không hủy gói đăng ký.',
-        ],
-        [
-          'Hoàn tiền',
-          'Giao dịch do Apple xử lý, nên yêu cầu hoàn tiền gửi cho Apple tại reportaproblem.apple.com. Chúng tôi không tự hoàn tiền được, trừ khi luật yêu cầu.',
-        ],
-        [
-          'Khôi phục',
-          'Dùng "Khôi phục" trong ứng dụng để lấy lại Pro trên máy mới với cùng tài khoản Apple. Trọn đời nghĩa là suốt thời gian ứng dụng và bộ tính năng Pro còn được cung cấp, không phải suốt đời bạn hay vòng đời của thiết bị.',
-        ],
-        [
-          'Thay đổi',
-          'Chúng tôi có thể thay đổi giá hoặc nội dung của Pro. Việc đổi giá gói đăng ký theo quy định của Apple và bạn sẽ được thông báo khi cần.',
-        ],
-      ],
-    },
-    {
       id: 'ads',
-      title: 'Quảng cáo và dịch vụ bên thứ ba',
+      title: 'Dịch vụ của bên thứ ba',
       paragraphs: [
-        'Bản miễn phí của ứng dụng có hoặc sắp có quảng cáo. Ứng dụng cũng dùng dịch vụ của Apple và Open-Meteo. Chúng tôi không kiểm soát các dịch vụ này và không chịu trách nhiệm về nội dung, tính sẵn sàng hay cách làm của họ. Xem Chính sách quyền riêng tư để biết chi tiết.',
+        'Ứng dụng miễn phí, không có quảng cáo và không có giao dịch mua trong ứng dụng. Ứng dụng dùng dịch vụ của Apple và Open-Meteo. Chúng tôi không kiểm soát các dịch vụ này và không chịu trách nhiệm về nội dung, tính sẵn sàng hay cách làm của họ. Xem Chính sách quyền riêng tư để biết chi tiết.',
       ],
     },
     {
@@ -303,7 +229,7 @@ const vi: Partial<Content> = {
       id: 'liability',
       title: 'Giới hạn trách nhiệm',
       paragraphs: [
-        'Trong phạm vi luật cho phép, chúng tôi không chịu trách nhiệm về thiệt hại gián tiếp, ngẫu nhiên hay hệ quả, hoặc mất dữ liệu, lợi nhuận, cơ hội, phát sinh từ việc bạn dùng ứng dụng hoặc tin vào tem. Tổng trách nhiệm của chúng tôi cho mọi khiếu nại giới hạn ở số tiền bạn đã trả cho ứng dụng trong 12 tháng trước khiếu nại. Không điều nào trong Điều khoản này giới hạn trách nhiệm mà luật không cho phép giới hạn, và quyền người tiêu dùng của bạn vẫn được giữ nguyên.',
+        'Trong phạm vi luật cho phép, chúng tôi không chịu trách nhiệm về thiệt hại gián tiếp, ngẫu nhiên hay hệ quả, hoặc mất dữ liệu, lợi nhuận, cơ hội, phát sinh từ việc bạn dùng ứng dụng hoặc tin vào tem. Vì ứng dụng miễn phí, tổng trách nhiệm của chúng tôi cho mọi khiếu nại được giới hạn trong phạm vi luật cho phép. Không điều nào trong Điều khoản này giới hạn trách nhiệm mà luật không cho phép giới hạn, và quyền người tiêu dùng của bạn vẫn được giữ nguyên.',
       ],
     },
     {
